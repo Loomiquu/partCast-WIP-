@@ -75,7 +75,7 @@ function partCast.new()
 			
 			activeCast = require(script.hitboxManager):init(constraints, attachments)
 		elseif activeCast then
-			warn("::CANNOT RUN TWO PROCESSES WITHIN THE SAME PARTCAST BUILDER::")
+			warn("::CANNOT RUN TWO PROCESSES WITHIN THE SAME PARTCAST CONSTRUCTOR::")
 		else
 			warn("::PROCESS PAUSED, TOOLOBJECT IS NIL; SET THE TOOLOBJECT::")
 		end
